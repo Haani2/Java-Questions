@@ -4,7 +4,7 @@ public class MaxValArray {
         System.out.println(max(arr));
         System.out.println(max(arr, 2,4));
     }
-// here we find the maximum  value in array
+// here we find the maximum  value in ArrayProblem.Basic.array
      static int max(int[] arr) {
         int maxVal = 0;// let max val is 0;
         for (int i = 0; i < arr.length; i++) {

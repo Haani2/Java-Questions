@@ -1,5 +1,6 @@
+package ArrayProblem.Basic;
+
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class array_2D {
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class array_2D {
 //        //Output
 //        for (int row = 0; row < multiArray.length; row++) {
 //
-//            System.out.print(Arrays.toString(multiArray[row])); // simple way to show array
+//            System.out.print(Arrays.toString(multiArray[row])); // simple way to show ArrayProblem.Basic.array
 //
 //
 //            for (int col = 0; col < 3; col++) {

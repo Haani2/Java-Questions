@@ -1,4 +1,20 @@
 package ArrayProblem.Basic;
-
+//sorted or not
 public class SortedOrNot {
+    public static void main(String[] args) {
+        int[] arr ={2,3,4,5,6,7};
+        System.out.println(isSorted(arr));
+
+    }
+    public static boolean isSorted(int[] arr){
+        for (int i = 1; i < arr.length ; i++) {
+            if (arr[i]<=arr[i]-1){
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+        return false;
+    }
 }
